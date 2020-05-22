@@ -15,7 +15,7 @@ public class GoogleHome {
 	public WebElement gmail;
 
 	@TextType()
-	@FindBy(xpath = "//input[@aria-label='Search']")
+	@FindBy(xpath = "//input[@title='Search']")
 	public WebElement searchBox;
 
 }
